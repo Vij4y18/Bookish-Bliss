@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookishBliss</title>
+    <link rel="icon" href="reading-book_4072217.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="navbar">
+        <h1>BookishBliss</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-container">
+            <h2>THE SECRET</h2>
+            <h5>-Rhonda Byrne</h5>
+            <p>The book "secret" tells about the ultimate secret to win everthing in life, that is the LAW OF ATTRACTION. This book teaches about the power of law of attraction and how we can implement it in our life to get everthing we want in our life. It tells about health, wealth, love, luck, and how we can attract each and every ascpects by using the SECRET</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    
+
+    <div class="popup-overlay"> </div>
+    <div class="popup-box">
+        <h2>ADD BOOK</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="book-title">
+            <input type="text" placeholder="Book Author" id="book-author">
+            <textarea placeholder="Short description" id="book-description"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancel-popup">CANCEL</button>
+        </form>
+    </div>
+
+    <button class="add-button" id="add-popup">+</button>
+    <script src="script.js"></script>
+</body>
+</html>
